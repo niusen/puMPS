@@ -16,7 +16,7 @@ export puMPState, rand_puMPState, mps_tensor, num_sites, bond_dim, phys_dim, set
        canonicalize_left!,
        minimize_energy_local!, vumps_opt!
 
-export MPO_PBC_uniform, MPO_open_uniform, MPO_PBC_uniform_split, MPO_PBC_split
+export MPO_PBC_uniform, MPO_open_uniform, MPO_PBC_uniform_split, MPO_PBC_split, blockTMs
 
 include("states.jl")
 
